@@ -7,7 +7,7 @@ A sleek, native iOS application built with **SwiftUI** and **SwiftData** to trac
 ### 📊 Dynamic Balance Tracking
 Real-time calculation of your total net profit or loss. The header automatically updates as you add or remove coupons.
 <p align="left">
-  <img width="941" height="2045" src="https://github.com/user-attachments/assets/6235cb7c-753c-4d0a-b23b-6df2d15f6f49" alt="Main View"/>
+  <img width="350px" src="https://github.com/user-attachments/assets/6235cb7c-753c-4d0a-b23b-6df2d15f6f49" alt="Main View"/>
 </p>
 
 ### 🎨 Visual Analytics
@@ -21,8 +21,8 @@ All your coupons are stored locally on your device with high performance using A
 ### 🔍 Detail View & Management
 Full breakdown of every bet, including stake, odds, gross win, and net profit. Full control over your data with intuitive swipe-to-delete and edit sheets.
 <p align="center">
-  <img width="946" height="2047" src="https://github.com/user-attachments/assets/f081bf7d-5341-4a48-b98d-6d44a5e71048" />
-  <img width="946" height="2047" src="https://github.com/user-attachments/assets/fa2c25a5-1033-48a4-9697-fd5730e977df" alt="adding coupon"/>
+  <img width="250px" src="https://github.com/user-attachments/assets/f081bf7d-5341-4a48-b98d-6d44a5e71048" />
+  <img width="250px" src="https://github.com/user-attachments/assets/fa2c25a5-1033-48a4-9697-fd5730e977df" alt="adding coupon"/>
 </p>
 
 ## 🛠️ Tech Stack
