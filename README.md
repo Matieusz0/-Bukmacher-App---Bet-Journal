@@ -1,29 +1,47 @@
-# 🤑 Bukmacher App - Bet Journal
+# 🤑 Bukmacher App - Bet Journal v1.2
 
-A sleek, native iOS application built with **SwiftUI** and **SwiftData** to track your betting history, manage your bankroll, and visualize your total profit/loss with a modern interface.
+A sleek, native iOS application built with **SwiftUI** and **SwiftData** to track your betting history, manage your bankroll, and visualize your total profit/loss with a modern interface. Now with full personalization and multi-currency support.
 
-## ✨ Features
-
-### 📊 Dynamic Balance Tracking
-Real-time calculation of your total net profit or loss. The header automatically updates as you add or remove coupons.
 <p align="left">
-  <img width="350px" src="https://github.com/user-attachments/assets/6235cb7c-753c-4d0a-b23b-6df2d15f6f49" alt="Main View"/>
+  <img src="https://github.com/user-attachments/assets/19d52921-51ea-4c95-9505-3b70927f9142" width="300" alt="Main View v1.2">
 </p>
 
-### 🎨 Visual Analytics
-Modern, gradient-based balance cards that change color based on your performance. 
-* **Green/Teal** for profit.
-* **Red/Orange** for loss.
 
-### 🗄️ SwiftData Integration & Smart Grouping
-All your coupons are stored locally on your device with high performance using Apple's latest **SwiftData** framework. Your history is automatically organized by date (Today, Yesterday, and older).
+## ✨ What's New in v1.2
 
-### 🔍 Detail View & Management
-Full breakdown of every bet, including stake, odds, gross win, and net profit. Full control over your data with intuitive swipe-to-delete and edit sheets.
-<p align="center">
-  <img width="250px" src="https://github.com/user-attachments/assets/f081bf7d-5341-4a48-b98d-6d44a5e71048" />
-  <img width="250px" src="https://github.com/user-attachments/assets/fa2c25a5-1033-48a4-9697-fd5730e977df" alt="adding coupon"/>
+### 🌍 Localization & Personalization
+- **Multi-language Support**: Full English and Polish translations.
+- **Custom Profile**: Personalized greeting system. If no name is set, the app guides you through a quick setup on launch.
+- **Settings Hub**: Dedicated menu to change your name, currency, and language on the fly.
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/14619767-90cb-4579-bdc5-7b21c0f7de2d" width="280" alt="Settings Menu">
 </p>
+
+
+### 📈 Advanced Dashboard (Stat Slider)
+The header now features a swipeable slider showing three key metrics:
+1. **Total Balance** (Net Profit/Loss).
+2. **Total Won** (Gross winnings).
+3. **Total Stakes** (Total money put into play).
+<p align="left">
+  <img width="150"  alt="image" src="https://github.com/user-attachments/assets/5e4e822d-1ff9-48b6-a9f2-60708fb7379b" /> <img width="150"  alt="image" src="https://github.com/user-attachments/assets/3c317f64-02de-4475-97eb-2c737ba5227a" /> <img width="150"  alt="image" src="https://github.com/user-attachments/assets/67983a9c-0e51-4e97-8bf8-97899abe0858" />
+</p>
+
+### 💸 Multi-Currency Support
+Track your bets in **PLN (zł)**, **EUR (€)**, or **USD ($)**. The UI automatically adapts formatting and symbols across the entire app.
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/3ff039bd-fa83-4f6a-ba36-2a1f0047a4a3" width="280" alt="Currency Support">
+</p>
+
+
+### 🎨 Refined UI/UX
+- **Redesigned Bet List**: Cleaner, more modern look for your coupon cards.
+- **Improved Forms**: Enhanced "Add Coupon" sheet with better iconography and layout for faster entry.
+- **Hotfixes**: General performance improvements and SwiftData optimization.
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/aa19747b-54ce-49bf-8483-9902cc06f4fb" width="280" alt="New Add Form">
+</p>
+
 
 ## 🛠️ Tech Stack
 
@@ -34,31 +52,17 @@ Full breakdown of every bet, including stake, odds, gross win, and net profit. F
 
 ## 🚀 Installation via AltStore
 
-If you want to use this app on your iPhone without a paid Apple Developer account, follow these steps using **AltStore**:
-
-### 1. Requirements
-* A computer with **Windows** or **macOS**.
-* **AltServer** installed on your computer ([altstore.io](https://altstore.io)).
-* **iTunes** and **iCloud** (Direct versions from Apple, NOT Microsoft Store).
-
-### 2. Sideloading Process
-1. Download the `.ipa` file from the **Releases** section.
-2. Connect your iPhone to your computer via cable.
-3. In **iTunes**, enable **"Sync with this iPhone over Wi-Fi"** in the Summary tab.
-4. Launch **AltServer**, click the icon in the system tray, and choose **Install AltStore** -> **Your iPhone**.
-5. On your iPhone, go to **Settings > General > VPN & Device Management** and "Trust" your Apple ID.
-6. Open AltStore on iPhone, go to **"My Apps"**, tap **"+"**, and select `bukmacher.ipa`.
-
-### 3. Refreshing
-* Your app will stay active for **7 days**. 
-* If your computer and iPhone are on the same Wi-Fi, AltStore will automatically refresh the app in the background. No cables required!
+1. Download the `.ipa` from [Releases].
+2. Install via **AltStore** (requires AltServer on PC/Mac).
+3. Enable **"Sync over Wi-Fi"** in iTunes for automatic 7-day refreshes.
 
 ## 🗺️ Roadmap
-- [ ] **Multi-currency support**: Toggle between PLN, EUR, and USD.
-- [ ] **Currency Converter**: Real-time exchange rate calculations.
-- [ ] **Localization**: Full English and Polish language support (Currently Polish only).
-- [ ] **Advanced Stats**: Monthly reports and success rate charts.
+- [x] **Multi-currency support**: PLN, EUR, and USD.
+- [x] **Localization**: English and Polish support.
+- [ ] **Biometric Security**: Protect your betting history with **FaceID / TouchID**.
+- [ ] **Data Export**: Export your history to **PDF or Excel (CSV)** for deeper analysis.
+- [ ] **Advanced Stats**: Monthly reports, success rate charts, and profit/loss graphs.
 
 ## 👤 Author
 Made with ❤️ by **Matieusz**
-*v1.1 | 2026*
+*v1.2 | 2026*

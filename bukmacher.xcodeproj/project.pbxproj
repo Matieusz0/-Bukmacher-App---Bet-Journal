@@ -7,61 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		60086C3C2F424CE500D28783 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60086C3B2F424CE500D28783 /* ContentView.swift */; };
-		600CB2522F4232A6003E08C6 /* bukmacherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600CB2512F4232A6003E08C6 /* bukmacherApp.swift */; };
-		600CB2562F4232A9003E08C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 600CB2552F4232A9003E08C6 /* Assets.xcassets */; };
-		600CB2592F4232A9003E08C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 600CB2582F4232A9003E08C6 /* Preview Assets.xcassets */; };
-		600CB2632F4232AA003E08C6 /* bukmacherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600CB2622F4232AA003E08C6 /* bukmacherTests.swift */; };
-		600CB26D2F4232AA003E08C6 /* bukmacherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600CB26C2F4232AA003E08C6 /* bukmacherUITests.swift */; };
-		600CB26F2F4232AA003E08C6 /* bukmacherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600CB26E2F4232AA003E08C6 /* bukmacherUITestsLaunchTests.swift */; };
+		6005B69D2F48EBA300DBF4E0 /* bukmacherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6005B69C2F48EBA300DBF4E0 /* bukmacherApp.swift */; };
+		6005B69F2F48EBA300DBF4E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6005B69E2F48EBA300DBF4E0 /* ContentView.swift */; };
+		6005B6A32F48EBA500DBF4E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6005B6A22F48EBA500DBF4E0 /* Assets.xcassets */; };
+		6005B6A62F48EBA500DBF4E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6005B6A52F48EBA500DBF4E0 /* Preview Assets.xcassets */; };
+		6005B6AD2F48EC1E00DBF4E0 /* BetEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6005B6AC2F48EC1E00DBF4E0 /* BetEntry.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		600CB25F2F4232AA003E08C6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 600CB2462F4232A6003E08C6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 600CB24D2F4232A6003E08C6;
-			remoteInfo = bukmacher;
-		};
-		600CB2692F4232AA003E08C6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 600CB2462F4232A6003E08C6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 600CB24D2F4232A6003E08C6;
-			remoteInfo = bukmacher;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		60086C3B2F424CE500D28783 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		600CB24E2F4232A6003E08C6 /* bukmacher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bukmacher.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		600CB2512F4232A6003E08C6 /* bukmacherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bukmacherApp.swift; sourceTree = "<group>"; };
-		600CB2552F4232A9003E08C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		600CB2582F4232A9003E08C6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		600CB25E2F4232AA003E08C6 /* bukmacherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bukmacherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		600CB2622F4232AA003E08C6 /* bukmacherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bukmacherTests.swift; sourceTree = "<group>"; };
-		600CB2682F4232AA003E08C6 /* bukmacherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bukmacherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		600CB26C2F4232AA003E08C6 /* bukmacherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bukmacherUITests.swift; sourceTree = "<group>"; };
-		600CB26E2F4232AA003E08C6 /* bukmacherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bukmacherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6005B6992F48EBA300DBF4E0 /* bukmacher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bukmacher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6005B69C2F48EBA300DBF4E0 /* bukmacherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bukmacherApp.swift; sourceTree = "<group>"; };
+		6005B69E2F48EBA300DBF4E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6005B6A22F48EBA500DBF4E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6005B6A52F48EBA500DBF4E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6005B6AC2F48EC1E00DBF4E0 /* BetEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BetEntry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		600CB24B2F4232A6003E08C6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		600CB25B2F4232AA003E08C6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		600CB2652F4232AA003E08C6 /* Frameworks */ = {
+		6005B6962F48EBA300DBF4E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,72 +34,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		600CB2452F4232A6003E08C6 = {
+		6005B6902F48EBA300DBF4E0 = {
 			isa = PBXGroup;
 			children = (
-				600CB2502F4232A6003E08C6 /* bukmacher */,
-				600CB2612F4232AA003E08C6 /* bukmacherTests */,
-				600CB26B2F4232AA003E08C6 /* bukmacherUITests */,
-				600CB24F2F4232A6003E08C6 /* Products */,
+				6005B69B2F48EBA300DBF4E0 /* bukmacher */,
+				6005B69A2F48EBA300DBF4E0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		600CB24F2F4232A6003E08C6 /* Products */ = {
+		6005B69A2F48EBA300DBF4E0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				600CB24E2F4232A6003E08C6 /* bukmacher.app */,
-				600CB25E2F4232AA003E08C6 /* bukmacherTests.xctest */,
-				600CB2682F4232AA003E08C6 /* bukmacherUITests.xctest */,
+				6005B6992F48EBA300DBF4E0 /* bukmacher.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		600CB2502F4232A6003E08C6 /* bukmacher */ = {
+		6005B69B2F48EBA300DBF4E0 /* bukmacher */ = {
 			isa = PBXGroup;
 			children = (
-				600CB2512F4232A6003E08C6 /* bukmacherApp.swift */,
-				60086C3B2F424CE500D28783 /* ContentView.swift */,
-				600CB2552F4232A9003E08C6 /* Assets.xcassets */,
-				600CB2572F4232A9003E08C6 /* Preview Content */,
+				6005B69C2F48EBA300DBF4E0 /* bukmacherApp.swift */,
+				6005B69E2F48EBA300DBF4E0 /* ContentView.swift */,
+				6005B6AC2F48EC1E00DBF4E0 /* BetEntry.swift */,
+				6005B6A22F48EBA500DBF4E0 /* Assets.xcassets */,
+				6005B6A42F48EBA500DBF4E0 /* Preview Content */,
 			);
 			path = bukmacher;
 			sourceTree = "<group>";
 		};
-		600CB2572F4232A9003E08C6 /* Preview Content */ = {
+		6005B6A42F48EBA500DBF4E0 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				600CB2582F4232A9003E08C6 /* Preview Assets.xcassets */,
+				6005B6A52F48EBA500DBF4E0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		600CB2612F4232AA003E08C6 /* bukmacherTests */ = {
-			isa = PBXGroup;
-			children = (
-				600CB2622F4232AA003E08C6 /* bukmacherTests.swift */,
-			);
-			path = bukmacherTests;
-			sourceTree = "<group>";
-		};
-		600CB26B2F4232AA003E08C6 /* bukmacherUITests */ = {
-			isa = PBXGroup;
-			children = (
-				600CB26C2F4232AA003E08C6 /* bukmacherUITests.swift */,
-				600CB26E2F4232AA003E08C6 /* bukmacherUITestsLaunchTests.swift */,
-			);
-			path = bukmacherUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		600CB24D2F4232A6003E08C6 /* bukmacher */ = {
+		6005B6982F48EBA300DBF4E0 /* bukmacher */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 600CB2722F4232AA003E08C6 /* Build configuration list for PBXNativeTarget "bukmacher" */;
+			buildConfigurationList = 6005B6A92F48EBA500DBF4E0 /* Build configuration list for PBXNativeTarget "bukmacher" */;
 			buildPhases = (
-				600CB24A2F4232A6003E08C6 /* Sources */,
-				600CB24B2F4232A6003E08C6 /* Frameworks */,
-				600CB24C2F4232A6003E08C6 /* Resources */,
+				6005B6952F48EBA300DBF4E0 /* Sources */,
+				6005B6962F48EBA300DBF4E0 /* Frameworks */,
+				6005B6972F48EBA300DBF4E0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -144,69 +87,25 @@
 			);
 			name = bukmacher;
 			productName = bukmacher;
-			productReference = 600CB24E2F4232A6003E08C6 /* bukmacher.app */;
+			productReference = 6005B6992F48EBA300DBF4E0 /* bukmacher.app */;
 			productType = "com.apple.product-type.application";
-		};
-		600CB25D2F4232AA003E08C6 /* bukmacherTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 600CB2752F4232AA003E08C6 /* Build configuration list for PBXNativeTarget "bukmacherTests" */;
-			buildPhases = (
-				600CB25A2F4232AA003E08C6 /* Sources */,
-				600CB25B2F4232AA003E08C6 /* Frameworks */,
-				600CB25C2F4232AA003E08C6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				600CB2602F4232AA003E08C6 /* PBXTargetDependency */,
-			);
-			name = bukmacherTests;
-			productName = bukmacherTests;
-			productReference = 600CB25E2F4232AA003E08C6 /* bukmacherTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		600CB2672F4232AA003E08C6 /* bukmacherUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 600CB2782F4232AA003E08C6 /* Build configuration list for PBXNativeTarget "bukmacherUITests" */;
-			buildPhases = (
-				600CB2642F4232AA003E08C6 /* Sources */,
-				600CB2652F4232AA003E08C6 /* Frameworks */,
-				600CB2662F4232AA003E08C6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				600CB26A2F4232AA003E08C6 /* PBXTargetDependency */,
-			);
-			name = bukmacherUITests;
-			productName = bukmacherUITests;
-			productReference = 600CB2682F4232AA003E08C6 /* bukmacherUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		600CB2462F4232A6003E08C6 /* Project object */ = {
+		6005B6912F48EBA300DBF4E0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					600CB24D2F4232A6003E08C6 = {
+					6005B6982F48EBA300DBF4E0 = {
 						CreatedOnToolsVersion = 15.4;
-					};
-					600CB25D2F4232AA003E08C6 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 600CB24D2F4232A6003E08C6;
-					};
-					600CB2672F4232AA003E08C6 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 600CB24D2F4232A6003E08C6;
 					};
 				};
 			};
-			buildConfigurationList = 600CB2492F4232A6003E08C6 /* Build configuration list for PBXProject "bukmacher" */;
+			buildConfigurationList = 6005B6942F48EBA300DBF4E0 /* Build configuration list for PBXProject "bukmacher" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,88 +113,43 @@
 				en,
 				Base,
 			);
-			mainGroup = 600CB2452F4232A6003E08C6;
-			productRefGroup = 600CB24F2F4232A6003E08C6 /* Products */;
+			mainGroup = 6005B6902F48EBA300DBF4E0;
+			productRefGroup = 6005B69A2F48EBA300DBF4E0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				600CB24D2F4232A6003E08C6 /* bukmacher */,
-				600CB25D2F4232AA003E08C6 /* bukmacherTests */,
-				600CB2672F4232AA003E08C6 /* bukmacherUITests */,
+				6005B6982F48EBA300DBF4E0 /* bukmacher */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		600CB24C2F4232A6003E08C6 /* Resources */ = {
+		6005B6972F48EBA300DBF4E0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				600CB2592F4232A9003E08C6 /* Preview Assets.xcassets in Resources */,
-				600CB2562F4232A9003E08C6 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		600CB25C2F4232AA003E08C6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		600CB2662F4232AA003E08C6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				6005B6A62F48EBA500DBF4E0 /* Preview Assets.xcassets in Resources */,
+				6005B6A32F48EBA500DBF4E0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		600CB24A2F4232A6003E08C6 /* Sources */ = {
+		6005B6952F48EBA300DBF4E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60086C3C2F424CE500D28783 /* ContentView.swift in Sources */,
-				600CB2522F4232A6003E08C6 /* bukmacherApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		600CB25A2F4232AA003E08C6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				600CB2632F4232AA003E08C6 /* bukmacherTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		600CB2642F4232AA003E08C6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				600CB26D2F4232AA003E08C6 /* bukmacherUITests.swift in Sources */,
-				600CB26F2F4232AA003E08C6 /* bukmacherUITestsLaunchTests.swift in Sources */,
+				6005B69F2F48EBA300DBF4E0 /* ContentView.swift in Sources */,
+				6005B6AD2F48EC1E00DBF4E0 /* BetEntry.swift in Sources */,
+				6005B69D2F48EBA300DBF4E0 /* bukmacherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		600CB2602F4232AA003E08C6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 600CB24D2F4232A6003E08C6 /* bukmacher */;
-			targetProxy = 600CB25F2F4232AA003E08C6 /* PBXContainerItemProxy */;
-		};
-		600CB26A2F4232AA003E08C6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 600CB24D2F4232A6003E08C6 /* bukmacher */;
-			targetProxy = 600CB2692F4232AA003E08C6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		600CB2702F4232AA003E08C6 /* Debug */ = {
+		6005B6A72F48EBA500DBF4E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -358,7 +212,7 @@
 			};
 			name = Debug;
 		};
-		600CB2712F4232AA003E08C6 /* Release */ = {
+		6005B6A82F48EBA500DBF4E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -414,7 +268,7 @@
 			};
 			name = Release;
 		};
-		600CB2732F4232AA003E08C6 /* Debug */ = {
+		6005B6AA2F48EBA500DBF4E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -443,7 +297,7 @@
 			};
 			name = Debug;
 		};
-		600CB2742F4232AA003E08C6 /* Release */ = {
+		6005B6AB2F48EBA500DBF4E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -469,125 +323,31 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		600CB2762F4232AA003E08C6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = H25GBNY6Y8;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.matieusz.bukmacherTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bukmacher.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bukmacher";
-			};
-			name = Debug;
-		};
-		600CB2772F4232AA003E08C6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = H25GBNY6Y8;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.matieusz.bukmacherTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bukmacher.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bukmacher";
-			};
-			name = Release;
-		};
-		600CB2792F4232AA003E08C6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = H25GBNY6Y8;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.matieusz.bukmacherUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = bukmacher;
-			};
-			name = Debug;
-		};
-		600CB27A2F4232AA003E08C6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = H25GBNY6Y8;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.matieusz.bukmacherUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = bukmacher;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		600CB2492F4232A6003E08C6 /* Build configuration list for PBXProject "bukmacher" */ = {
+		6005B6942F48EBA300DBF4E0 /* Build configuration list for PBXProject "bukmacher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				600CB2702F4232AA003E08C6 /* Debug */,
-				600CB2712F4232AA003E08C6 /* Release */,
+				6005B6A72F48EBA500DBF4E0 /* Debug */,
+				6005B6A82F48EBA500DBF4E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		600CB2722F4232AA003E08C6 /* Build configuration list for PBXNativeTarget "bukmacher" */ = {
+		6005B6A92F48EBA500DBF4E0 /* Build configuration list for PBXNativeTarget "bukmacher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				600CB2732F4232AA003E08C6 /* Debug */,
-				600CB2742F4232AA003E08C6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		600CB2752F4232AA003E08C6 /* Build configuration list for PBXNativeTarget "bukmacherTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				600CB2762F4232AA003E08C6 /* Debug */,
-				600CB2772F4232AA003E08C6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		600CB2782F4232AA003E08C6 /* Build configuration list for PBXNativeTarget "bukmacherUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				600CB2792F4232AA003E08C6 /* Debug */,
-				600CB27A2F4232AA003E08C6 /* Release */,
+				6005B6AA2F48EBA500DBF4E0 /* Debug */,
+				6005B6AB2F48EBA500DBF4E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 600CB2462F4232A6003E08C6 /* Project object */;
+	rootObject = 6005B6912F48EBA300DBF4E0 /* Project object */;
 }
